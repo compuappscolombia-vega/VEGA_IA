@@ -65,9 +65,30 @@ def consultar_api(prompt):
 # --- MOTOR DE INTERCEPCIÓN Y EJECUCIÓN (V2.0) ---
 def iniciar_agente():
     limpiar_pantalla()
-    print(f"{C_AZUL}{'='*50}{C_RESET}")
-    print(f"{C_VERDE} V.E.G.A. IA - AGENTE AUTÓNOMO TERMUX {C_RESET}")
-    print(f"{C_AZUL}{'='*50}{C_RESET}")
+    
+    # NUEVO: Diseño ASCII corporativo para V.E.G.A.
+    logo_vega = f"""{C_VERDE}
+           /============================\
+          //                            \\
+         //  __     __ _____ ____   _   \\
+        //   \ \   / /| ____/ ___| / \   \\
+       //     \ \ / / |  _|| |  _ / _ \   \\
+      //       \ V /  | |__| |_| / ___ \   \\
+     //         \_/   |_____\____/_/   \_\  \\
+     \\                                      //
+      \\               ___   _              //
+       \\             |_ _| / \            //
+        \\             | | / _ \          //
+         \\            | |/ ___ \        //
+          \\          |___/_/   \_\     //
+           \\                          //
+            \==========================/
+    {C_RESET}"""
+    
+    print(logo_vega)
+    print(f"{C_AZUL}{'='*56}{C_RESET}")
+    print(f"{C_VERDE}      UNIDAD TÁCTICA AUTÓNOMA - COMPUAPPS LABS{C_RESET}")
+    print(f"{C_AZUL}{'='*56}{C_RESET}")
     print(f"{C_SISTEMA}[SISTEMA] Conexión establecida. Motor de subprocesos activo.{C_RESET}\n")
 
     while True:
