@@ -5,7 +5,7 @@ import re
 from groq import Groq
 
 # Llave de CompuApps Labs
-API_KEY = "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" 
+API_KEY = "PROPORCIONAN SU KEY DE GROQ" 
 
 cliente_groq = Groq(api_key=API_KEY)
 historial_chat = []
